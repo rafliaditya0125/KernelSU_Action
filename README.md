@@ -1,10 +1,21 @@
 # KernelSU Action
 
+[English](README.md) | [Indonesia](README_ID.md)
+
 This action is for Non-GKI Kernels and has some universality and requires knowledge of the kernel and Android.
 
 ## Warning :warning::warning::warning:
 
 If you are not the author of the Kernel, and are using someone else's labor to build KernelSU, please use it for personal use only and do not share it with others. This is to show respect for the author's labor achievements.
+
+## Supported Devices & Branches
+
+You can easily switch between branches depending on your target device and Android version. Here is the list of currently available branches:
+
+| Device | Android Version | Branch |
+| --- | --- | --- |
+| Generic / Default | - | `main` |
+| Beryllium (Poco F1) | 13 | `Beryllium/A13` |
 
 ## Supported Kernel Versions
 
@@ -19,7 +30,7 @@ If you are not the author of the Kernel, and are using someone else's labor to b
 
 > Once the compilation is successful, AnyKernel3 will be uploaded in the `Action` and the device check has been disabled. Please flash it in TWRP.
 
-Fork this repository to your storage account and edit the `config.env` file with the following content. Afterward, click `Star` or `Action`. On the left side, you can see the `Build Kernel` option. Click on it, and you will find the `Run workflows` option above the dialog. Click on it to start the build.
+Fork this repository to your storage account and edit the `config.env` file with the following content. Afterward, click  `Action`. On the left side, you can see the `Build Kernel` option. Click on it, and you will find the `Run workflows` option above the dialog. Click on it to start the build.
 
 ### Kernel Source
 
@@ -198,3 +209,4 @@ For example: https://raw.githubusercontent.com/xiaoleGun/KernelSU_action/main/bo
 - [AOSP](https://android.googlesource.com)
 - [KernelSU](https://github.com/tiann/KernelSU)
 - [xiaoxindada](https://github.com/xiaoxindada)
+- [xiaoleGun](https://github.com/xiaoleGun)
